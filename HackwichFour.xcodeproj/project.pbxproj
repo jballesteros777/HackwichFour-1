@@ -14,6 +14,8 @@
 		D041AC30222870790081B5B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D041AC2E222870790081B5B9 /* LaunchScreen.storyboard */; };
 		D041AC3B222870790081B5B9 /* HackwichFourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041AC3A222870790081B5B9 /* HackwichFourTests.swift */; };
 		D041AC46222870790081B5B9 /* HackwichFourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041AC45222870790081B5B9 /* HackwichFourUITests.swift */; };
+		F7C888302257E9F5006E6E17 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7C8882F2257E9F5006E6E17 /* Property List.plist */; };
+		F7C888322257EC2D006E6E17 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C888312257EC2D006E6E17 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D041AC41222870790081B5B9 /* HackwichFourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichFourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D041AC45222870790081B5B9 /* HackwichFourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichFourUITests.swift; sourceTree = "<group>"; };
 		D041AC47222870790081B5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7C8882F2257E9F5006E6E17 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		F7C888312257EC2D006E6E17 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				D041AC25222870790081B5B9 /* AppDelegate.swift */,
 				D041AC27222870790081B5B9 /* ViewController.swift */,
+				F7C888312257EC2D006E6E17 /* detailViewController.swift */,
 				D041AC29222870790081B5B9 /* Main.storyboard */,
+				F7C8882F2257E9F5006E6E17 /* Property List.plist */,
 				D041AC2C222870790081B5B9 /* Assets.xcassets */,
 				D041AC2E222870790081B5B9 /* LaunchScreen.storyboard */,
 				D041AC31222870790081B5B9 /* Info.plist */,
@@ -234,6 +240,7 @@
 			files = (
 				D041AC30222870790081B5B9 /* LaunchScreen.storyboard in Resources */,
 				D041AC2D222870790081B5B9 /* Assets.xcassets in Resources */,
+				F7C888302257E9F5006E6E17 /* Property List.plist in Resources */,
 				D041AC2B222870790081B5B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				D041AC28222870790081B5B9 /* ViewController.swift in Sources */,
 				D041AC26222870790081B5B9 /* AppDelegate.swift in Sources */,
+				F7C888322257EC2D006E6E17 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
