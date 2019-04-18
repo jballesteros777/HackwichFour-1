@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F2AEADD226914DC0066EEBA /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2AEADC226914DC0066EEBA /* secondViewController.swift */; };
+		7F2AEADF226915500066EEBA /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2AEADE226915500066EEBA /* Restaurant.swift */; };
 		D041AC26222870790081B5B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041AC25222870790081B5B9 /* AppDelegate.swift */; };
 		D041AC28222870790081B5B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041AC27222870790081B5B9 /* ViewController.swift */; };
 		D041AC2B222870790081B5B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D041AC29222870790081B5B9 /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F2AEADC226914DC0066EEBA /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		7F2AEADE226915500066EEBA /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		D041AC22222870790081B5B9 /* HackwichFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwichFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D041AC25222870790081B5B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D041AC27222870790081B5B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,7 +107,9 @@
 			children = (
 				D041AC25222870790081B5B9 /* AppDelegate.swift */,
 				D041AC27222870790081B5B9 /* ViewController.swift */,
+				7F2AEADC226914DC0066EEBA /* secondViewController.swift */,
 				F7C888312257EC2D006E6E17 /* detailViewController.swift */,
+				7F2AEADE226915500066EEBA /* Restaurant.swift */,
 				D041AC29222870790081B5B9 /* Main.storyboard */,
 				F7C8882F2257E9F5006E6E17 /* Property List.plist */,
 				D041AC2C222870790081B5B9 /* Assets.xcassets */,
@@ -266,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F2AEADF226915500066EEBA /* Restaurant.swift in Sources */,
+				7F2AEADD226914DC0066EEBA /* secondViewController.swift in Sources */,
 				D041AC28222870790081B5B9 /* ViewController.swift in Sources */,
 				D041AC26222870790081B5B9 /* AppDelegate.swift in Sources */,
 				F7C888322257EC2D006E6E17 /* detailViewController.swift in Sources */,

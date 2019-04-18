@@ -48,6 +48,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let dict = NSDictionary(contentsOfFile: path!)
         
         restaurantImageData = dict!.object(forKey: "restaurantImages") as! [String]
+        
+        self.navigationItem.title = "Restaurants"
     }
 
     override func didReceiveMemoryWarning() {

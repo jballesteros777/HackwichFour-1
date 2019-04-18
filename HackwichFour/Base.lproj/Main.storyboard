@@ -53,21 +53,30 @@
             </objects>
             <point key="canvasLocation" x="1705" y="-940"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="XF3-kb-z2A">
             <objects>
-                <viewController id="xlT-1R-rC4" sceneMemberID="viewController">
+                <viewController id="xlT-1R-rC4" customClass="secondViewController" customModule="HackwichFour" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nzU-tb-WjW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="EAh-In-kDT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="TOo-f5-Auj"/>
                     </view>
                     <navigationItem key="navigationItem" id="BTB-H8-w37"/>
+                    <connections>
+                        <outlet property="mapView" destination="EAh-In-kDT" id="RqB-BL-YoG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R0h-On-2pS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1705" y="-259"/>
+            <point key="canvasLocation" x="1704.8" y="-259.52023988005999"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="NFR-V1-2vu">
