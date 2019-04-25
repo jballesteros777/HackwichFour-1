@@ -24,8 +24,11 @@ class secondViewController: UIViewController {
         centerMapOnLocation(location: initialLocation)
         
         let restaurantOne = Restaurant(title: "Kalapawai", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.346470, longitude: -158.080098))
+        let restaurantTwo = Restaurant(title: "Coco Ichibanya", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.329647, longitude: -158.078001))
+        
         
         mapView.addAnnotation(restaurantOne)
+        mapView.addAnnotation(restaurantTwo)
         
         self.navigationItem.title = "Map"
         
