@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     @IBOutlet var tableView: UITableView!
     
-    var myFriends = ["Kapolei Kalapawai", "Coco Ichibanya"]
+    var myFriends = ["Kapolei Kalapawai", "Coco Ichibanya", "Gyu-Kaku Japanese BBQ", "Ton Ton Ramen"]
 
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

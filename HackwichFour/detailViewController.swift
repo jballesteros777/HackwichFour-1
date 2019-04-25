@@ -11,8 +11,10 @@ import UIKit
 class detailViewController: UIViewController {
 
     @IBOutlet var imageView: UIImageView!
+    @IBOutlet var textView: UITextView!
     
     var imagePass: String?
+    
     
     
     override func viewDidLoad() {

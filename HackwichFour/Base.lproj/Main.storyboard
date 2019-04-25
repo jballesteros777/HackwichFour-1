@@ -104,6 +104,7 @@
                     <navigationItem key="navigationItem" id="Dvy-rW-BND"/>
                     <connections>
                         <outlet property="imageView" destination="bCP-Tn-RZg" id="yI2-o3-oWS"/>
+                        <outlet property="textView" destination="tOv-mv-bEc" id="Tah-WL-5Zk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O6D-eA-QbR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -133,7 +134,7 @@
         <scene sceneID="qkC-jW-GTY">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OMl-Z6-VN8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Eats" id="WRR-V1-kk7"/>
+                    <tabBarItem key="tabBarItem" title="Eats" selectedImage="icons8-restaurant" id="WRR-V1-kk7"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0Pz-zq-ZTm">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -152,7 +153,7 @@
         <scene sceneID="GvX-Ir-592">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="piD-lT-dSs" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Maps" id="skf-Hm-EvX"/>
+                    <tabBarItem key="tabBarItem" title="Maps" selectedImage="icons8-map_marker" id="skf-Hm-EvX"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zRR-5o-ss8">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -168,4 +169,8 @@
             <point key="canvasLocation" x="830" y="-258"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-map_marker" width="25" height="25"/>
+        <image name="icons8-restaurant" width="25" height="25"/>
+    </resources>
 </document>
