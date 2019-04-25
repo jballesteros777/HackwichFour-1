@@ -37,6 +37,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
 
     var restaurantImageData = [String]()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
