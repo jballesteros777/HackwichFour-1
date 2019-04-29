@@ -35,7 +35,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.deselectRow(at: indexPath as IndexPath, animated: true)
         
     }
-
+    
+    
     var restaurantImageData = [String]()
     
     var restaurantDescriptionData = [String]()
@@ -71,6 +72,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
             let textIndex = tableView.indexPathForSelectedRow?.row
             s1.textPass = restaurantDescriptionData[textIndex!]
+            
+           
+            
         }
         
         

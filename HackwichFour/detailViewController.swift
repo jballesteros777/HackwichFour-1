@@ -15,7 +15,7 @@ class detailViewController: UIViewController {
     
     var imagePass: String?
     var textPass: String?
-    
+    var titlePass: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,11 @@ class detailViewController: UIViewController {
         if let textName = textPass {
             textView.text = textName
         }
-        self.navigationItem.title = ""
+        if let titleName = titlePass {
+            self.navigationItem.title = titleName
+            
+       
+        }
     }
     
 
