@@ -26,12 +26,14 @@ class secondViewController: UIViewController {
         let restaurantOne = Restaurant(title: "Kalapawai", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.346470, longitude: -158.080098))
         let restaurantTwo = Restaurant(title: "Coco Ichibanya", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.329647, longitude: -158.078001))
         let restaurantThree = Restaurant(title: "Gyu-Kaku", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.331106, longitude: -158.094027))
-        let restaurantFour = Restaurant(title: "Gyu-Kaku", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.378562, longitude: -158.025799))
+        let restaurantFour = Restaurant(title: "Ton Ton Ramen", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.378562, longitude: -158.025799))
+        let restaurantFive = Restaurant(title: "Ohana Ramen", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.387904, longitude: -158.033366))
         
         mapView.addAnnotation(restaurantOne)
         mapView.addAnnotation(restaurantTwo)
         mapView.addAnnotation(restaurantThree)
         mapView.addAnnotation(restaurantFour)
+        mapView.addAnnotation(restaurantFive)
         
         self.navigationItem.title = "Map"
         

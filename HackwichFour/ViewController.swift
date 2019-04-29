@@ -13,11 +13,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     @IBOutlet var tableView: UITableView!
     
-    var myFriends = ["Kapolei Kalapawai", "Coco Ichibanya", "Gyu-Kaku Japanese BBQ", "Ton Ton Ramen"]
+    var myRestaurants = ["Kapolei Kalapawai", "Coco Ichibanya", "Gyu-Kaku Japanese BBQ", "Ton Ton Ramen", "Ohana Ramen"]
 
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return myFriends.count
+    return myRestaurants.count
         //return 4
 
     }
@@ -25,7 +25,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //Code Block
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")!
-        let text = myFriends[indexPath.row]
+        let text = myRestaurants[indexPath.row]
         cell.textLabel?.text=text
         return cell
         
@@ -37,6 +37,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
 
     var restaurantImageData = [String]()
+    
+    var restaurantDescriptionData = [String]()
     
 
     override func viewDidLoad() {
@@ -65,7 +67,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             let imageIndex = tableView.indexPathForSelectedRow?.row
             s1.imagePass = restaurantImageData[imageIndex!]
             
+            
         }
+        
+        
+        
     }
 
 

@@ -5,6 +5,10 @@
 	<key>restaurantDescription</key>
 	<array>
 		<string>restaurant </string>
+		<string>Japanese style curry and ramen</string>
+		<string>oof</string>
+		<string>yeet</string>
+		<string>default</string>
 	</array>
 	<key>restaurantImages</key>
 	<array>
@@ -12,6 +16,7 @@
 		<string>cocoIchibanya</string>
 		<string>gyukakuJapanese</string>
 		<string>tontonRamen</string>
+		<string>ohanaRamen</string>
 	</array>
 </dict>
 </plist>
