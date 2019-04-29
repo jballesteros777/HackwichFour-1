@@ -25,10 +25,9 @@ class detailViewController: UIViewController {
             imageView.image = UIImage(named: imageName)
         }
         if let textName = textPass {
-            
+            textView.text = textName
         }
-        
-        
+        self.navigationItem.title = ""
     }
     
 

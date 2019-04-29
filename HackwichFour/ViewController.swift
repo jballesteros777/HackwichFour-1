@@ -51,8 +51,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let dict = NSDictionary(contentsOfFile: path!)
         
         restaurantImageData = dict!.object(forKey: "restaurantImages") as! [String]
+        restaurantDescriptionData = dict!.object(forKey: "restaurantDescription") as! [String]
         
         self.navigationItem.title = "Restaurants"
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -67,7 +69,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             let imageIndex = tableView.indexPathForSelectedRow?.row
             s1.imagePass = restaurantImageData[imageIndex!]
             
-            
+            let textIndex = tableView.indexPathForSelectedRow?.row
+            s1.textPass = restaurantDescriptionData[textIndex!]
         }
         
         

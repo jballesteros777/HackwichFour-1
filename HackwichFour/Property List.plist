@@ -4,11 +4,11 @@
 <dict>
 	<key>restaurantDescription</key>
 	<array>
-		<string>restaurant </string>
+		<string>Cafe and Deli</string>
 		<string>Japanese style curry and ramen</string>
-		<string>oof</string>
-		<string>yeet</string>
-		<string>default</string>
+		<string>Japanese BBQ</string>
+		<string>Japanese food</string>
+		<string>Japanese food</string>
 	</array>
 	<key>restaurantImages</key>
 	<array>
