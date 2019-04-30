@@ -75,7 +75,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             s1.textPass = restaurantDescriptionData[textIndex!]
             
             let titleIndex = tableView.indexPathForSelectedRow?.row
-            s1.titlePass = restaurantImageData[imageIndex!]
+            s1.titlePass = myRestaurants[tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")!]
         }
         
         
