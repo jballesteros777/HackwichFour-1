@@ -13,6 +13,7 @@ class detailViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var textView: UITextView!
     
+    
     var imagePass: String?
     var textPass: String?
     var titlePass: String?
@@ -27,11 +28,10 @@ class detailViewController: UIViewController {
         if let textName = textPass {
             textView.text = textName
         }
-        if let titleName = titlePass {
-            self.navigationItem.title = titleName
-            
-       
-        }
+        self.title = titlePass
+        
+        
+        
     }
     
 

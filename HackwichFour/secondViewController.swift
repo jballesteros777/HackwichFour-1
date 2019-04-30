@@ -36,7 +36,7 @@ class secondViewController: UIViewController {
         mapView.addAnnotation(restaurantFive)
         
         self.navigationItem.title = "Map"
-        
+        self.tabBarItem.image = UIImage(named: "icons8-map_marker")
     }
     
     func centerMapOnLocation(location: CLLocation) {

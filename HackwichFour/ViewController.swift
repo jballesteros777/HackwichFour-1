@@ -34,6 +34,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         tableView.deselectRow(at: indexPath as IndexPath, animated: true)
         
+        
     }
     
     
@@ -55,7 +56,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         restaurantDescriptionData = dict!.object(forKey: "restaurantDescription") as! [String]
         
         self.navigationItem.title = "Restaurants"
-        
+        self.tabBarItem.image = UIImage(named: "icons8-restaurant")
     }
 
     override func didReceiveMemoryWarning() {
@@ -73,8 +74,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             let textIndex = tableView.indexPathForSelectedRow?.row
             s1.textPass = restaurantDescriptionData[textIndex!]
             
-           
-            
+            let titleIndex = tableView.indexPathForSelectedRow?.row
+            s1.titlePass = restaurantImageData[imageIndex!]
         }
         
         
